@@ -36,7 +36,6 @@ class HeroNav extends React.Component {
                 <div className="navbar-end">
                   <a className="navbar-item" href="/">About Me</a>
                   <a className="navbar-item" href="portfolio">Portfolio</a>
-                  <a className="navbar-item" href="contact.html">Contact Me</a>
                 </div>
               </div>
             </div>

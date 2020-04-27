@@ -2,6 +2,7 @@ import React from "react";
 import HeroNav from "../components/HeroNav/hero";
 import MyPic from "../images/DSC07299.jpg";
 import "./pages.css";
+import ContactInfo from "../components/Contact/contact";
 
 class MainPage extends React.Component {
   render() {
@@ -11,7 +12,7 @@ class MainPage extends React.Component {
         <div className="container">
           <div className="card">
             <header className="card-header" id="aboutHead">
-              <h1 id="about">About Me</h1>
+              <h1 className="about">About Me</h1>
             </header>
             <div className="card-content">
               <div className="content">
@@ -31,6 +32,14 @@ class MainPage extends React.Component {
             </p>
               </div>
             </div>
+          </div>
+          <br />
+          <ContactInfo />
+          <div>
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
         </div>
       </div>
