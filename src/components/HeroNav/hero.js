@@ -17,25 +17,25 @@ class HeroNav extends React.Component {
   
   render() {
     return (
-      <div className="hero is-small is-success">
+      <div className="hero is-small is-success is-bold">
         <div className="hero-body">
-          <nav id="myNav" className="navbar is-success is-bold" role="navigation" aria-label="site nav">
+          <nav id="myNav" className="navbar is-success" role="navigation" aria-label="site nav">
             <div className="container">
               <div className="navbar-brand">
                 <h1 id="myName" className="navbar-item is-size-3">
                   Curtis Allen
                         </h1>
-                <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                <button className="navbar-burger burger button is-success" aria-label="menu" aria-expanded="false"
                                 data-target="mainNav">
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
-                            </a>
+                            </button>
               </div>
               <div id="mainNav" className="navbar-menu">
                 <div className="navbar-end">
-                  <a className="navbar-item" href="index.html">About Me</a>
-                  <a className="navbar-item" href="portfolio.html">Portfolio</a>
+                  <a className="navbar-item" href="/">About Me</a>
+                  <a className="navbar-item" href="portfolio">Portfolio</a>
                   <a className="navbar-item" href="contact.html">Contact Me</a>
                 </div>
               </div>

@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/background.jpg");
+    height: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+hr {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#myName {
+    font-size: 35px;
+    color: #ffffff;
+    margin-left: 14px;
+}
+
+#bio-img {
+    float: left;
+    width: 440px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#portfolioFooter {
+    padding: 3rem 1.5rem 3rem;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#contactFooter {
+    padding: 3rem 1.5rem 3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#aboutFooter {
+    padding: 3rem 1.5rem 3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#content {
+    width: 960px;
+}
+
+#about {
+    font-size: 30px;
+    color: #3b3b3b;
+    margin: 20px;
+    /* padding-bottom: 20px; */
+    /* border-bottom: 2px solid #dddddd; */
+}
+
+#pageMain {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+#portfolioBody {
+    height: min-content;
+}
+
+#aboutHead {
+    margin-top: 40px;
+}

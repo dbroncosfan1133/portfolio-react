@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import MainPage from "./pages/about";
+import PortfolioPage from './pages/portfolio';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div>
         <Switch>
           <Route exact path="/" component={MainPage} />
+          <Route exact path="/portfolio" component={PortfolioPage} />
         </Switch>
       </div>
     </Router>
