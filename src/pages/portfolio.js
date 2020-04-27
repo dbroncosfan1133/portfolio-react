@@ -1,8 +1,8 @@
 import React from "react";
 import HeroNav from "../components/HeroNav/hero";
 import "./pages.css";
-import HairSalon from "../images/SalonInventory.jpg";
-import StorefrontDemo from "../images/StorefrontDemo.jpg";
+import InventoryManager from "../components/InventoryManager/InventoryManager";
+import StoreFront from "../components/StoreFront/StoreFront";
 import GoogleYelp from "../images/Yelp_Google_maps_group_project.jpg";
 import EatBurger from "../images/burger-app.jpg";
 import BamazonImg from "../images/Customer-2.jpg";
@@ -26,30 +26,12 @@ class PortfolioPage extends React.Component {
                 <div className="tile is-ancestor">
                   <div className="tile is-parent">
                     <div className="tile is-child box">
-                      <figure className="image mt-2">
-                        <a href="https://lginventorymngr.herokuapp.com/"><img className="img"
-                          src={HairSalon} alt="Project 2 Store Front Demo"
-                          title="Hair Salon Inventory Manager" /></a>
-                      </figure>
-                      <hr />
-                      <a className="mt-2" href="https://lginventorymngr.herokuapp.com/">Hair Salon Inventory Manager</a>
-                      <hr />
-                      <p>Github Page:</p>
-                      <a className="mt-2" href="https://github.com/dbroncosfan1133/inventory-manager">View the Code</a>
+                      <InventoryManager />
                     </div>
                   </div>
                   <div className="tile is-parent">
                     <div className="tile is-child box">
-                      <figure className="image mt-2">
-                        <a href="https://ecommercesitedemo.herokuapp.com/"><img className="img"
-                          src={StorefrontDemo} alt="Project 2 Store Front Demo"
-                          title="Store Front Demo" /></a>
-                      </figure>
-                      <hr />
-                      <a className="mt-2" href="https://ecommercesitedemo.herokuapp.com">Store Front Demo</a>
-                      <hr />
-                      <p>Github Page:</p>
-                      <a className="mt-2" href="https://github.com/bchansen123/storePage">View the Code</a>
+                      <StoreFront />
                     </div>
                   </div>
                   <div className="tile is-parent">
