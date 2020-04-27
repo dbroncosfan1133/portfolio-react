@@ -1,7 +1,7 @@
 import React from "react";
 import GoogleYelp from "../../images/Yelp_Google_maps_group_project.jpg";
 
-function Yelp_Google() {
+function YelpGoogle() {
   return (
     <div>
       <figure className="image mt-2">
@@ -19,4 +19,4 @@ function Yelp_Google() {
   )
 }
 
-export default Yelp_Google;
+export default YelpGoogle;
