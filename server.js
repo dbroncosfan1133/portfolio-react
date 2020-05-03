@@ -14,6 +14,11 @@ if (process.env.NODE_ENV === "production") {
 // Add routes, both API and view
 // app.use(routes);
 
+const path = require('path');
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+});
+
 // Start the API server
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
