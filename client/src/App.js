@@ -6,12 +6,10 @@ import PortfolioPage from './pages/portfolio';
 function App() {
   return (
     <Router>
-      <div>
         <Switch>
           <Route exact path="/" component={MainPage} />
           <Route exact path="/portfolio" component={PortfolioPage} />
         </Switch>
-      </div>
     </Router>
   );
 }
