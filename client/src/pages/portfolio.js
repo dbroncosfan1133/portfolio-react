@@ -22,69 +22,86 @@ class PortfolioPage extends React.Component {
               <h1 className="about">Project Links</h1>
             </header>
             <div className="card-content">
-              <div className="content">
-                <div className="tile is-ancestor">
-                  <div className="tile is-parent">
-                    <div className="tile is-child box">
-                      <InventoryManager />
-                    </div>
-                  </div>
-                  <div className="tile is-parent">
-                    <div className="tile is-child box">
-                      <StoreFront />
-                    </div>
-                  </div>
-                  <div className="tile is-parent">
-                    <div className="tile is-child box">
-                      <YelpGoogle />
-                    </div>
-                  </div>
-                </div>
-                <div className="tile is-ancestor">
-                  <div className="tile is-parent">
-                    <div class="tile is-child box">
-                      <BurgerApp />
-                    </div>
-                  </div>
-                  <div class="tile is-parent">
-                    <div class="tile is-child box">
-                      <BamazonApp />
-                    </div>
-                  </div>
-                  <div class="tile is-parent">
-                    <div class="tile is-child box">
-                      <LiriNodeApp />
+              <div className="card is-shadowless">
+                <header className="card-header is-shadowless">
+                  <h1 className="group">Group Projects:</h1>
+                </header>
+                <div className="card-content groupCard">
+                  <div className="content">
+                    <div className="tile is-ancestor">
+                      <div className="tile is-parent">
+                        <div className="tile is-child box">
+                          <InventoryManager />
+                        </div>
+                      </div>
+                      <div className="tile is-parent">
+                        <div className="tile is-child box">
+                          <StoreFront />
+                        </div>
+                      </div>
+                      <div className="tile is-parent">
+                        <div className="tile is-child box">
+                          <YelpGoogle />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div className="tile is-ancestor">
-                  <div className="tile is-parent">
-                    <div className="tile is-child box">
-                      <TrainTrackerApp />
+              </div>
+              <div className="card is-shadowless">
+                <header className="card-header is-shadowless">
+                  <h1 className="group">Individual Projects:</h1>
+                </header>
+                <div className="card-content individualCard">
+                  <div className="content">
+                    <div className="tile is-ancestor">
+                      <div className="tile is-parent">
+                        <div class="tile is-child box">
+                          <BurgerApp />
+                        </div>
+                      </div>
+                      <div class="tile is-parent">
+                        <div class="tile is-child box">
+                          <BamazonApp />
+                        </div>
+                      </div>
+                      <div class="tile is-parent">
+                        <div class="tile is-child box">
+                          <LiriNodeApp />
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                  <div className="tile is-parent">
-                    <div className="tile is-child box">
-                      <CrystalApp />
-                    </div>
-                  </div>
-                  <div className="tile is-parent">
-                    <div className="tile is-child box">
-                      <PlatingApp />
+                    <div className="tile is-ancestor">
+                      <div className="tile is-parent">
+                        <div className="tile is-child box">
+                          <TrainTrackerApp />
+                        </div>
+                      </div>
+                      <div className="tile is-parent">
+                        <div className="tile is-child box">
+                          <CrystalApp />
+                        </div>
+                      </div>
+                      <div className="tile is-parent">
+                        <div className="tile is-child box">
+                          <PlatingApp />
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div>
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
+        </div>
+        <div>
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
+
     )
   }
 }

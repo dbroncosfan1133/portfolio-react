@@ -25,6 +25,20 @@ hr {
     /* border-bottom: 2px solid #dddddd; */
 }
 
+.group {
+    font-size: 20px;
+    color: #3b3b3b;
+    margin-bottom: 20px;
+}
+
+.groupCard {
+    padding: 0 0 24px 0;
+}
+
+.individualCard {
+    padding: 0 0 0 0;
+}
+
 #myName {
     font-size: 35px;
     color: #ffffff;
